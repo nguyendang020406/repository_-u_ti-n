@@ -13,5 +13,9 @@ int main(){
     cout << "Hello world" << endl;
     cout << "mmbELS" << endl;
     cout << "Hello world 2" << endl;
+    int n;
+    cin >> n;
+    cout << "Số fibonacci: " << fibonacci(n) << endl;
     return 0;
 }
+
